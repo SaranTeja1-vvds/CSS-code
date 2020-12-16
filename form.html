@@ -10,15 +10,41 @@
   </head>
   <body>
   <h1> Welcome to Registration Page</h1>
-
-<form>
-First Name : <input type="text" placeholder="First Name" maxlength="25"><br><br>
-Last Name : <input type="text" placeholder="Last Name"><br><br>
-Email Address: <input type="email" placeholder="email address"><br><br>
-Password: <input type="password" placeholder="Password"><br><br>
-Re-enter Password: <input type="password" placeholder="Re-enter Password"><br><br>
+<form action="FormThankyou.html">
+First Name : <input type="text" placeholder="First Name" maxlength="25" required><br><br>
+Last Name : <input type="text" placeholder="Last Name" required><br><br>
+Email Address: <input type="email" placeholder="email address" required><br><br>
+Password: <input type="password" placeholder="Password" required><br><br>
+Re-enter Password: <input type="password" placeholder="Re-enter Password" required><br><br>
 Gender:<input type="radio" name="g" value="">Male
        <input type="radio" name="g" value="">Female
+       <br><br>
+Date of Birth : <input type="date" name="" value="" required>
+        <br><br>
+Location : <select>
+             <option>Hyderabad</option>
+             <option selected=selected>Kakinada</option>
+             <option disabled=disabled>Goa</option>
+             <option>NewDelhi</option>
+             <option>Bangalore</option>
+            </select>
+                 <br> <br>
+Upload Resume Here : <input type="file" name="" value="" required>
+                     <br><br>
+                     OR
+                     <br><br>
+Paste Resume Here :<br> <textarea  rows="5" cols="100" required></textarea>
+                          <br><br>
+Address : <textarea name="name" rows="8" cols="25" required></textarea>
+                         <br><br>
+Select a Hobby : <input type="checkbox" name="" value=""> Playing Games
+                 <input type="checkbox" name="" value=""> Reading Books
+                 <input type="checkbox" name="" value=""> Watching Tv
+                        <br><br>
+<input type="checkbox" name="" value="" required> I accept All the terms and Conditions.
+<br><br>
+<input type="submit" value="Submit"> 
+<input type="reset"  value="Clear">
                  <hr>
 1. What is the capital of India?<br>
     <input type="radio" name="q1" value="">NewDelhi
